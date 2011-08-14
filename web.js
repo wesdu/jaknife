@@ -21,9 +21,12 @@ app.get('/', function(req, res){
 			res.send(mustache.to_html(template, {articles: articles}));
 		});
 	};
+	/*
     loadAllArticles(res, function() {
 		callback(req, res);
 	});
+	*/
+	res.send("hello there");
 });
 app.get('/article/:filename', function(req, res){
 	loadAllArticles(res,function() {
