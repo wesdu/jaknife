@@ -21,12 +21,9 @@ app.get('/', function(req, res){
 			res.send(mustache.to_html(template, {articles: articles}));
 		});
 	};
-	/*
     loadAllArticles(res, function() {
 		callback(req, res);
 	});
-	*/
-	res.send("hello there");
 });
 app.get('/article/:filename', function(req, res){
 	loadAllArticles(res,function() {
@@ -87,5 +84,6 @@ var loadAllArticles= function(res, callback) {
 	});
 };
 console.info("listening at port 3000");
-app.listen(80);
+var port= process.env.PORT || 3000;
+app.listen(port);
 
