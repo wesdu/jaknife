@@ -240,6 +240,11 @@ body {
 			<h1>{{title}}</h1>
 			<div class="date">{{date}}</div>
 			{{{html}}}
+			<div class="tag_wrap" {{^tag}}style="display:none;"{{/tag}}>
+				{{#tag}}
+					<div class="tag">{{.}}</div>
+				{{/tag}}
+			</div>
 	</div>
 	<div class="footer">a git-based nodejs blog hosted on heroku @2011 by Duwei</div>
 </body>
