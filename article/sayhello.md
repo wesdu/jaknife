@@ -23,3 +23,5 @@ TAG:hello,world
 [nodejs](http://nodejs.org/)
 
 [heroku](http://heroku.com/)
+
+    console.info("hello world");
