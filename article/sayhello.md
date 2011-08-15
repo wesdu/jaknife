@@ -7,6 +7,8 @@ TAG:hello,world
 小博客程序终于完成了
 ---------------------
 
+<script src="https://gist.github.com/1147110.js?file=wq"></script>
+
 其实源代码也就几百行，如果有人有兴趣可以开源出来 ：）
 
 
