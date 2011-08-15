@@ -11,6 +11,7 @@ TAG:hello,world
 
 
 -   基于git，不使用数据库，主要是为了可以简单地免费在heroku上跑。
+-	每个文章就是一个markdown语法的文件，git push即发表。
 -   使用的语言是nodejs，这时一个异步与闭包的世界 XD。
 -   架设在heroku上
 -	因为比较懒⋯⋯所以只打算对webkit核心的浏览器友好⋯⋯
