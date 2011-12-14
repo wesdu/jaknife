@@ -13,7 +13,7 @@ TAG:svn
 	make install
 	/neon-0.29.6 # ./configure --with-ssl --with-libs=/usr/local/openssl/ --prefix=/usr/local/neon LDFLAGS="-L/lib64"
 	make
-	make install
+	make install DIGEST_END
 	/apr-1.4.5 # ./configure --prefix=/usr/local/apr LDFLAGS="-L/lib64"
 	make
 	make install
